@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    font-family: "Sedan SC", serif;
+}
+html{
+    font-size: 100%;
+}
+body{
+    background-color: #fd9abf;
+    }
+header{
+    background-color: #ac3b64;
+}
+#containerHeader{
+    display: flex;
+}
+#logo{
+    width: 180px;
+    border-radius: 0 20px 20px 0;
+}
+main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+}
+.container{
+    margin: 16px;
+    background-color: #ffedff;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px  rgba(0, 0, 0, .350);
+    width: 30%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+    padding: 3rem;
+}
+.buyBotton{
+    display: flex;
+    align-items: center;
+}
+.buyButton input{
+    border: none;
+    background-color: #ac3b64;
+    padding: 0.6rem 2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    color: #fd9abf;
+}
+.buyButton input:hover{
+    background-color: #fd9abf;
+    color: #ac3b64;
+}
+.agrupamento{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem;
+}
+footer{
+    background-color: #ac3b64;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    
+}
