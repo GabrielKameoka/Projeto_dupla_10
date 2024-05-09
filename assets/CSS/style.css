@@ -19,19 +19,35 @@ body{
     border-radius: 8px;
     padding: 10px;
     margin: 30px;
-    width: 40%;
+    width: 250px;
+    height: 350px;
     display: flex;
     flex-direction: row;
     gap: 9px;
+    transition: 0.5s;
+}
+.container:hover{
+    width: 30%;
+}
+@media(max-width:500px){
+    .container{
+        width: 100%;
+    }
 }
 .tenis{
-    width: 40%;
+    position: relative;
+    width: 250px;
     border-radius: 8px;
     float: left;
 }
 .especificacoes{
-    order: 1;
+    position: relative;
+    width: 400px;
+    height: 400px;
+    left: 20px;
+    overflow: hidden;
 }
+
 .produtos{
     display: flex;
     flex-wrap: wrap;
@@ -42,6 +58,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    width: 100%;
 }
 #segundaFileira{
     display: flex;
