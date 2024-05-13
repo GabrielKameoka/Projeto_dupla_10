@@ -2,7 +2,8 @@
     margin: 0;
 }
 header{
-    background-color: #ac3b64;
+    background-color: #fcd2ee;
+    justify-content: center;
 }
 body{
     background-color: #fd9abf;
@@ -12,7 +13,8 @@ body{
 }
 #logo{
     width: 180px;
-    border-radius: 0 20px 20px 0;
+    border-radius:20px 20px;
+    align-items: center;
 }
 .container{
     background-color: #ffedff;
@@ -54,16 +56,35 @@ body{
     justify-content: center;
     align-items: center;
 }
+
+.nomes{
+    color:#d4026e
+}
 #primeiraFileira{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: 100%;
+    width: 70%;
 }
 #segundaFileira{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    width: 70%;
+}
+
+#terceirafileira{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 70%;
+
+}
+
+#botoes{
+    border: 3px dashed #c473fa;
+    background-color: #3a0447;
+    color:  #ffedff ;
 }
 footer{
     background-color: #ac3b64;
