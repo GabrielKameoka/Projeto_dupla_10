@@ -21,7 +21,7 @@ body{
     border-radius: 8px;
     padding: 10px;
     margin: 30px;
-    width: 250px;
+    width: 19%;
     height: 350px;
     display: flex;
     flex-direction: row;
@@ -29,23 +29,49 @@ body{
     transition: 0.5s;
 }
 .container:hover{
-    width: 30%;
+    width: 600px;
 }
-@media(max-width:500px){
+@media screen and (max-width: 1000px) {
+    .container:hover{
+        width: 200%;
+    }
     .container{
+        width: 110%;
+    }
+    .produtos{
+        margin-left: -100px;
+        display: flex;
+        justify-content: start;
+    }
+}
+@media screen and (max-width: 460px){
+    .container:hover{
+        width: 130%;
+    }
+    .container{
+        width: 130%;
+        
+    }
+    .produtos{
         width: 100%;
+        margin-left: -86px;
+        justify-content: start;
+    }
+    .especificacoes{
+        width: 400px;
+        height: 340px;
     }
 }
 .tenis{
     position: relative;
-    width: 250px;
+    width: 247px;
     border-radius: 8px;
     float: left;
 }
 .especificacoes{
     position: relative;
     width: 400px;
-    height: 400px;
+    height: 340px;
     left: 20px;
     overflow: hidden;
 }
@@ -87,5 +113,6 @@ body{
     color:  #ffedff ;
 }
 footer{
+    height: 100px;
     background-color: #ac3b64;
 }

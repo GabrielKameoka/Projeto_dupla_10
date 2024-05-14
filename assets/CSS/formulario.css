@@ -5,11 +5,15 @@
 html{
     font-size: 100%;
 }
-body{
-    background-color: #fd9abf;
-    }
+*{
+    margin: 0;
+}
 header{
-    background-color: #ac3b64;
+    background-color: #fcd2ee;
+    justify-content: center;
+}
+body{
+        background-color: #fd9abf;
 }
 #containerHeader{
     display: flex;
@@ -66,6 +70,7 @@ main{
     padding: 1rem;
 }
 footer{
+    height: 100px;
     background-color: #ac3b64;
 }
 .box{
