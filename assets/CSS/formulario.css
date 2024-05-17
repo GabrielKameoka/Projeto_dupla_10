@@ -79,8 +79,14 @@ main{
     padding: 1rem;
 }
 footer{
+    display: flex;
+    justify-content: center;
+    gap: 50%;
     height: 100px;
     background-color: #ac3b64;
+}
+footer .segundaMetade img{
+    width: 30px;
 }
 .box{
     display: flex;
