@@ -113,6 +113,15 @@ body{
     color:  #ffedff ;
 }
 footer{
+    display: flex;
+    justify-content: center;
+    gap: 50%;
     height: 100px;
     background-color: #ac3b64;
+}
+footer .primeiraMetade{
+
+}
+footer .segundaMetade img{
+    width: 30px;
 }
