@@ -21,7 +21,7 @@ body{
     border-radius: 8px;
     padding: 10px;
     margin: 30px;
-    width: 19%;
+    width: 240px;
     height: 350px;
     display: flex;
     flex-direction: row;
@@ -64,7 +64,7 @@ body{
 }
 .tenis{
     position: relative;
-    width: 247px;
+    width: 240px;
     border-radius: 8px;
     float: left;
 }
